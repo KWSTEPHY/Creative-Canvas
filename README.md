@@ -16,9 +16,9 @@ Stephy Kamau
 
 This website has been developed using:
 
-* [NEXT JS](https://nextjs.org/) - for fullstack development
-* [TailwindCSS](https://tailwindcss.com/) - for css styling
-* [Figma](https://www.figma.com/) - for design development
+* [w3schools](https://www.w3schools.com/html/)- for basic html and JS styling
+* [BasicCSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) - for css styling
+
 
 ## Deployment
 
