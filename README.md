@@ -28,7 +28,7 @@ To deploy this project run
   npm run deploy
 ```
 
-Open (link) with your browser to see the results
+[Open](file:///home/stephy/Documents/phase-0/Creative-Canvas/index.html#bio) with your browser to see the results
 ## Requirements Needed
 * Basic programming knowledge of Jeact/javaScript
 * Visual Studio as code editor
@@ -37,4 +37,4 @@ Email me at: [Stephy Wanjiru Kamau](stephshiro35@gmail.com)
 
 
 ## Copyright and License Information
-(link) Inc. Al Rights Reserved
+&copy;Inc. All Rights Reserved
