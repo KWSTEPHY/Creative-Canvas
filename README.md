@@ -1,21 +1,20 @@
 # Creative Canvas
 
-Creative Canvas is an art gallery website designed to bridge the gap between artists,collectors,and the public by creating an accessible and immersive online experience centered around visual art.
+Creative Canvas is a personal website that showcases my work as a web developer and my love for what i do.
+It also shows how to contact me for business purposes.
 
-The website is created for various stakeholders eg. curators,artists,art collectors and general public.
 ## Developer's Name
 Stephy Kamau
 
 ## Acknowledgements
 
- - [Art Gallery Templates](https://themeforest.net/search/art%20gallery)
  - [Inspirational Art Images](https://www.pexels.com/search/art/)
  - [How to write a Good readme](https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
 
 
 ## Getting Started
 
-This website has been develope using:
+This website has been developed using:
 
 * [NEXT JS](https://nextjs.org/) - for fullstack development
 * [TailwindCSS](https://tailwindcss.com/) - for css styling
