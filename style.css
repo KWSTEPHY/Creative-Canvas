@@ -98,7 +98,12 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 30px;
+    grid-template-areas:
+    "gallery-p gallery-p gallery-p gallery-p"
+    "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+    "img1 img2 img3 img4"
+    "img5 img6 img3 img7"; 
     }
     
     #artwork .gallery-img{
@@ -108,6 +113,14 @@
     background-size:cover;
     background-position:center;
     cursor:pointer;
+    }
+
+    /*Images*/
+    #artwork .gallery p{
+        grid-area: gallery-p;
+    }
+    #artwork .gallery h2{
+        grid-area: gallery-h2;
     }
     #artwork .img1{
         grid-area: img1;
@@ -120,6 +133,7 @@
       #artwork .img3{
         grid-area: img3;
         background-image: url("../img/thumbs/img3.jpg");
+        height: 610px;
     }   
      #artwork .img4{
         grid-area: img4;
