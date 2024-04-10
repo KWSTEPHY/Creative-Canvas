@@ -19,60 +19,99 @@
 <li><a href="#store">Location</a></li>
 <li><a href="#info">About</a></li>
 <li><a href="#contact">Contact</a></li>
+<li id="search-container">
+    <input type="text" placeholder="Search...">
+    <button type="submit">Search</button>
 </ul>
 </nav>
 </header>
 <main>
-<section id="profile">
-<h2>Artist Profile</h2>
-<div class="project" id="project1"><b>Artist 1:</b> 
-<div class="project" id="project2"><b>Artist 2:</b>
-</div>
-<div class="project" id="project3"><b>Artist 3</b>
-</div>
+    <section id="profile">
+        <h2>Artist Profile</h2>
+        <div class="artist" id="artist1">
+            <img src="img/profilepic1.jpg" alt="Artist 1">
+            <!-- Content for artist 1 -->
+            <h3>WANJIRU OMONDI</h3>
+            <p>Specializes in abstract painting and oilbased paints</p>
+        </div>
+        <div class="artist" id="artist2">
+            <img src="img/profilepic2.jpg" alt="Artist 2">
+            <!-- Content for artist 2 -->
+            <h3>AISHA MORAA</h3>
+            <p>Has over 10  years experience in electric photography.</p>
+        </div>
+        <div class="artist" id="artist3">
+            <img src="img/profilepic3.jpg" alt="Artist 3">
+            <!-- Content for artist 3 -->
+            <h3>DANIEL ANDY</h3>
+            <p> Mixed Media: Art that combines different techniques</p>
+        </div>
+    </section>
 <!-- Artwork showcase will be dynamically added here -->
-</section>
+
 
 <section id="artwork" class="wrapper-gallery">
 <h2>Catalogue</h2>
-
-<!-- Artist profiles will be dynamically added here -->
+<!-- Images display-->
 <div class = "gallery-img img1">
-<div><a href="#">title</a></div>
+<div><a href="#">Artist:Georgio Amani<br>This is an abstract potriat designed to depict the colours of the human heart</a></div>
+<button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 </div>
 <div class = "gallery-img img2">
 <div><a href="#">title</a></div>
+<button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 </div>
 <div class = "gallery-img img3">
 <div><a href="#">title</a></div>
+<button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 </div>
 <div class = "gallery-img img4">
 <div><a href="#">title</a></div>
+<button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 </div>
 <div class = "gallery-img img5">
 <div><a href="#">title</a></div>
+<button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 </div>
 <div class = "gallery-img img6">
 <div><a href="#">title</a></div>
+<button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 </div>
 <div class = "gallery-img img7">
 <div><a href="#">title</a></div>
+<button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 </div>
 </section>
 
 <section id="store">
-<h2>Location</h2>
+    <h2>Location</h2>
+    <p>Our art gallery is located at:</p>
+    <p>Moi Avenue Street, Nairobi, 20100</p>
+    <p><b>Directions:</b></p>
+    <ol>
+        <li>From the main highway, take the first</li>
+        <li>Turn left onto Moi Avenue.</li>
+        <li>Continue straight for 1 mile.</li>
+        <li>The art gallery will be on your right.</li>
+    </ol>
 <!-- Online store will be dynamically added here -->
 </section>
 
 <section id="info">
 <h2>About</h2>
+<p>Welcome to our art gallery! We are dedicated to showcasing a diverse range of talented artists...</p>
+<p>Our mission is to promote art and culture within our community...</p>
 <!---- Contact form will be dynamically added here -->
 </section>
 </main>
 
 <footer id="contact">
 <p>Connect with us:</p>
+<div id="social-icons">
+    <a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt="Instagram"></a>
+    <a href="https://www.facebook.com/"><img src="img/facebook.jpg" alt="Facebook"></a>
+    <a href="https://twitter.com/"><img src="img/twitter.jpg" alt="Twitter"></a>
+</div>
 <!-- Social media icons will be dynamically added here -->
 </footer>
 

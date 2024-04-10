@@ -9,18 +9,18 @@
     body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: #7e5d5d;
     }
     .logo {
-    width: 200px; /* Set the width as desired */
-    height: auto; /* Let the height adjust proportionally */
+    width: 200px; 
+    height: auto; 
     float: left;
     }
     /* Header styles */
     header {
     background-color: #000000;
     color: #ffffff;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     }
     
@@ -39,11 +39,13 @@
     nav ul li {
     display: inline;
     margin-right: 20px;
+    
     }
     
     nav ul li a {
     color: #fff;
     text-decoration: none;
+    
     }
     
     nav ul li a:hover {
@@ -58,47 +60,78 @@
     section {
     margin: 20px;
     }
-    #profile {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 20px;
-    background-color: #e9e9e9;
-    display: inline-block;
-    padding: 30px;
-    width: 1200px;
-    }
-    
-    .project {
-    width: 400px;
-    height: 0px;
-    border: 40px solid #ccc;
-    margin: 20px;
-    display: inline-block;
-    }
-    
+
     h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+        font-size: 24px;
+        margin-bottom: 10px;
+        }
+
+         /* Style the search input */
+         #search-container {
+            position: absolute; 
+            top: 30px; 
+            right: 30px; 
+        }
+
+        #search-container input[type=text] {
+            padding: 6px;
+            font-size: 17px;
+            border: none;
+            border-radius: 20px; 
+        }
+
+        #search-container button {
+            padding: 6px 10px;
+            background-color: #ddd;
+            font-size: 17px;
+            border: none;
+            border-radius: 20px; 
+            cursor: pointer;
+        }
+
+        #search-container button:hover {
+            background: #ccc;
+        }
+    
+        
+    /*artist profile*/
+    #profile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     
-    /* Footer styles */
-    footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    .artist {
+        width: 250px; 
+        height: 450px;
+        border: 1px solid #ccc;
+        padding: 70px;
+        margin-bottom: 20px;
+        margin-top: 100px;
+        margin-right: 80px;
+        background-color:#ccc ;
+       
     }
-    
-    footer p {
-    margin-bottom: 10px;
+
+    .artist img {
+        width: 100px; /* Adjust image size as needed */
+        border-radius: 50%; /* Optional: makes the image circular */
+        margin-bottom: 10px;
     }
-    
+
+
+    /*Images Arrangement*/
+
+    #artwork h2 {
+        margin-bottom: 1px;
+        margin-top: 50px;
+    }
+   
     #artwork{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 30px;
+    grid-gap: 70px;
     grid-template-areas:
     "gallery-p gallery-p gallery-p gallery-p"
     "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
@@ -125,29 +158,138 @@
     #artwork .img1{
         grid-area: img1;
         background-image: url("../img/thumbs/img1.jpg");
+        width: 300px; 
+        height: auto; 
     }    
     #artwork .img2{
         grid-area: img2;
         background-image: url("../img/thumbs/img2.jpg");
+        width: 300px; 
+        height: auto; 
     }  
       #artwork .img3{
         grid-area: img3;
         background-image: url("../img/thumbs/img3.jpg");
         height: 610px;
+        width: 300px;
     }   
      #artwork .img4{
         grid-area: img4;
         background-image: url("../img/thumbs/img4.jpg");
+        width: 300px; 
+        height: auto; 
     }   
      #artwork .img5{
         grid-area: img5;
         background-image: url("../img/thumbs/img5.jpg");
+        width: 300px; 
+        height: auto; 
     }    
     #artwork .img6{
         grid-area: img6;
         background-image: url("../img/thumbs/img6.jpg");
+        width: 300px; 
+        height: auto; 
     }   
      #artwork .img7{
         grid-area: img7;
         background-image: url("../img/thumbs/img7.jpg");
+        width: 300px; 
+        height: auto; 
     }    
+
+
+    /*Gallery image titles*/
+    .gallery-img div {
+        width:100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-img a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .gallery-img div:hover {
+      
+        opacity: 0.9;
+       transition: all ease-in-out 100ms;
+    }
+
+    /*Button*/
+    .add-to-cart-button {
+        margin-top: 5px;
+        background-color: #e49337; 
+        border: none;
+        color: rgb(252, 252, 252);
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+    }
+    
+    .add-to-cart-button:hover {
+        background-color: #45a049; 
+    }
+
+    /*Store;Location of the art gallery*/
+
+    #store {
+        margin-top: 100px;
+    }
+    
+    #store h2 {
+        margin-bottom: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    
+    #store p {
+        margin-bottom: 20px;
+    }
+
+
+
+
+     /* Footer styles */
+     footer {
+        background-color: #0e0e0e;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        }
+        
+        footer p {
+        margin-bottom: 10px;
+        }
+        
+        /*social medoa icons*/
+        #social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        #social-icons img {
+            width: 50px; 
+            height: 50px; 
+        }
+
+        #social-icons a {
+            margin: 0 30px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        
