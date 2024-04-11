@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Canvas</title>
     <link rel="stylesheet" href="style.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
@@ -23,21 +20,21 @@
             <ul>
                 <li><a href="#profile">Artist Profile</a></li>
                 <li><a href="#artwork">Catalogue</a></li>
-                <li><a href="#store">Location</a></li>
                 <li><a href="#info">About</a></li>
+                <li><a href="#store">Location</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <div class="search-container">
                     <input type="text" placeholder="Search...">
                     <button type="submit"><i class="fa fa-search"></i></button>
-                  </div>
-                  
-                    <div id="cart-icon">
-                        <button id="cartBtn" class="cart-btn">
-                            <img src="https://img.icons8.com/ios/50/shopping-cart--v1.png" width="30" height="30"
-                                alt="shopping-cart">
-                            <span id="cart-badge" class="badge">0</span>
-                        </button>
-                    </div>
+                </div>
+
+                <div id="cart-icon">
+                    <button id="cartBtn" class="cart-btn">
+                        <img src="https://img.icons8.com/ios/50/shopping-cart--v1.png" width="30" height="30"
+                            alt="shopping-cart">
+                        <span id="cart-badge" class="badge">0</span>
+                    </button>
+                </div>
             </ul>
         </nav>
     </header>
@@ -50,61 +47,70 @@
 
 
         <div class="gallery-box">
-        <section id="artwork" class="wrapper-gallery">
-            <h2></h2>
-            <!-- Images display-->
-            <div class="gallery-img img1">
-                <div><a href="#">Artist:Wanjiru Omondi<br>Art:Tera<br>Price:$ 100</a></div>
-                <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
-                
+            <section id="artwork" class="wrapper-gallery">
+                <h2></h2>
+                <!-- Images display-->
+                <div class="gallery-img img1">
+                    <div><a href="#">Artist:Wanjiru Omondi<br>Art:Tera<br>Price:$ 100</a></div>
+                    <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+
                     <span id="like-count" class="likes">0 likes</span>
                     <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
-                
-            </div>
-            <div class="gallery-img img2">
-                <div><a href="#">Artist:Wanjiru Omondi<br>Art:Kilima<br>Price:$150</a></div>
-                <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 
-                <span id="like-count" class="likes">0 likes</span>
-                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
-            </div>
-            <div class="gallery-img img3">
-                <div><a href="#">Artist:Aisha Morra<br>Art:Obsene<br>Price:$300</a></div>
-                <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="gallery-img img2">
+                    <div><a href="#">Artist:Wanjiru Omondi<br>Art:Kilima<br>Price:$150</a></div>
+                    <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 
-                <span id="like-count" class="likes">0 likes</span>
-                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
-            </div>
-            <div class="gallery-img img4">
-                <div><a href="#">Artist:Aisha Morra<br>Art:Mideval<br>Price:$340</a></div>
-                <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+                    <span id="like-count" class="likes">0 likes</span>
+                    <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                </div>
+                <div class="gallery-img img3">
+                    <div><a href="#">Artist:Aisha Morra<br>Art:Obsene<br>Price:$300</a></div>
+                    <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 
-                <span id="like-count" class="likes">0 likes</span>
-                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
-            </div>
-            <div class="gallery-img img5">
-                <div><a href="#">Artist:Daniel Andy<br>Art:Denim<br>Price:$400</a></div>
-                <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+                    <span id="like-count" class="likes">0 likes</span>
+                    <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                </div>
+                <div class="gallery-img img4">
+                    <div><a href="#">Artist:Aisha Morra<br>Art:Mideval<br>Price:$340</a></div>
+                    <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 
-                <span id="like-count" class="likes">0 likes</span>
-                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
-            </div>
-            <div class="gallery-img img6">
-                <div><a href="#">Artist:Daniel Andy<br>Art:Jenga<br>Price:$600</a></div>
-                <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+                    <span id="like-count" class="likes">0 likes</span>
+                    <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                </div>
+                <div class="gallery-img img5">
+                    <div><a href="#">Artist:Daniel Andy<br>Art:Denim<br>Price:$400</a></div>
+                    <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 
-                <span id="like-count" class="likes">0 likes</span>
-                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
-            </div>
-            <div class="gallery-img img7">
-                <div><a href="#">Artist:Daniel Andy<br>Art:Surreal<br>Price:$200</a></div>
-                <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+                    <span id="like-count" class="likes">0 likes</span>
+                    <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                </div>
+                <div class="gallery-img img6">
+                    <div><a href="#">Artist:Daniel Andy<br>Art:Jenga<br>Price:$600</a></div>
+                    <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
 
-                <span id="like-count" class="likes">0 likes</span>
-                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
-            </div>
+                    <span id="like-count" class="likes">0 likes</span>
+                    <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                </div>
+                <div class="gallery-img img7">
+                    <div><a href="#">Artist:Daniel Andy<br>Art:Surreal<br>Price:$200</a></div>
+                    <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+
+                    <span id="like-count" class="likes">0 likes</span>
+                    <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                </div>
+            </section>
+        </div>
+       
+
+        <section id="info">
+            <h2>About</h2>
+            <p>Welcome to our art gallery! We are dedicated to showcasing a diverse range of talented artists...</p>
+            <p>Our mission is to promote art and culture within our community...</p>
+            <!---- Contact form will be dynamically added here -->
         </section>
-</div>
+
         <section id="store">
             <h2>Location</h2>
             <p>Our art gallery is located at:</p>
@@ -117,13 +123,6 @@
                 <li>The art gallery will be on your right.</li>
             </ol>
             <!-- Online store will be dynamically added here -->
-        </section>
-
-        <section id="info">
-            <h2>About</h2>
-            <p>Welcome to our art gallery! We are dedicated to showcasing a diverse range of talented artists...</p>
-            <p>Our mission is to promote art and culture within our community...</p>
-            <!---- Contact form will be dynamically added here -->
         </section>
     </main>
 
