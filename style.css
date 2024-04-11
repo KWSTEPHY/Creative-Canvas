@@ -316,6 +316,10 @@
             height: 50px; 
         }
 
+        #social-icons a img:hover {
+            transform: scale(1.1); 
+        }
+
         #social-icons a {
             margin: 0 30px;
             text-decoration: none;
