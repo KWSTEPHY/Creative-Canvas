@@ -11,12 +11,15 @@
     line-height: 1.6;
     background-color: #7e5d5d;
     }
+
+    /*Logo */
     .logo {
     width: 200px; 
     height: auto; 
     float: left;
     border-radius: 10px;
     }
+
     /* Header styles */
     header {
     background-color: #000000;
@@ -32,6 +35,7 @@
     
     }
     
+    /* Nav Bar */
     nav ul {
     list-style: none;
     text-align: right;
@@ -67,32 +71,8 @@
         margin-bottom: 10px;
         }
 
-         /* Style the search input 
-         #search-container {
-            position: absolute; 
-            top: 30px; 
-            right: 30px; 
-        }
-
-        #search-container input[type=text] {
-            padding: 6px;
-            font-size: 17px;
-            border: none;
-            border-radius: 20px; 
-        }
-
-        #search-container button {
-            padding: 6px 10px;
-            background-color: #ddd;
-            font-size: 17px;
-            border: none;
-            border-radius: 20px; 
-            cursor: pointer;
-        }
-
-        #search-container button:hover {
-            background: #ccc;
-        }*/
+        
+        /* Search*/
 
         .search-container {
             position: absolute; 
@@ -121,30 +101,34 @@
         
     /*artist profile*/
     #profile {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between; 
-        display: flex;
-        flex-direction: row;
-        margin-right: 50px;
-       
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    flex-direction: row;
+    margin-right: 50px;
+    margin-left: -50px;
+    text-align: center; 
+    margin-top: 70px;
+}
+#profile h2 {
+    margin-top: 200px; 
+}
     
     .artist {
-        margin-top: 70px;
-        width: 250px; 
-        height: 450px;
+        width: 200px; 
+        height: 480px;
         border: 1px solid #ccc;
         padding: 70px;
         background-color:#ccc ;
-        margin-right: 80px;
         border-radius: 20px;
+        
+        
        
     }
 
     .artist img {
-        width: 100px; /* Adjust image size as needed */
-        border-radius: 50%; /* Optional: makes the image circular */
+        width: 100px; 
+        border-radius: 50%; 
         margin-bottom: 10px;
     }
 
@@ -157,7 +141,7 @@
     }
    
     #artwork{
-        margin-top:-150px;
+        margin-top: -90px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -394,4 +378,12 @@ position:relative;
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
+}
+
+
+
+.dark-mode {
+    /* Dark mode styles */
+    background-color: #222121;
+    color: #f0f0f0;
 }

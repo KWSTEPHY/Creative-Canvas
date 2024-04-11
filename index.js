@@ -10,7 +10,7 @@ function handleLikeButtonClick() {
 
         button.addEventListener("click", function () {
             likes++; // Increase likes count for the clicked image
-            likeCountElements[index].textContent = `${likes} likes`; // Update likes count in the DOM for the corresponding image
+            likeCountElements[index].textContent = `${likes} likes`; 
         });
     });
 }
@@ -19,7 +19,7 @@ function handleLikeButtonClick() {
 handleLikeButtonClick();
 
 
-
+//Fetch profile data from api
 
 fetch('https://raw.githubusercontent.com/KWSTEPHY/Creative-Canvas/main/profile.json')
     .then((response) => response.json())
@@ -38,7 +38,7 @@ function setArtist(data) {
 
 
 
-
+//loop through each data
     for (let i = 0; i < data.length; i++) {
 
         profile.innerHTML += `<div class="artist" id="artist1">
@@ -74,6 +74,20 @@ function updateCartBadge() {
 
 
 
+// Function to toggle dark mode
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
+
+// Function to set default mode
+function setDefaultMode() {
+    // Remove the dark-mode class from body
+    document.body.classList.remove('dark-mode');
+}
+
+// Add event listeners to the toggle mode button and default mode button
+document.getElementById('toggle-mode').addEventListener('click', toggleDarkMode);
+document.getElementById('default-mode').addEventListener('click', setDefaultMode);
 
 
 
