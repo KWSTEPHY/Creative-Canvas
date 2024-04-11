@@ -18,25 +18,10 @@ function handleLikeButtonClick() {
 // Call the function to handle like button click
 handleLikeButtonClick();
 
-// function addToCart() {
-//     // Add the item to the cart (this is just a placeholder, you would implement your own logic here)
-//     // For example, you might add the item to an array representing the cart
-//     let cart = []; // Assuming cart is an array
-//     cart.push({ item: "Title", quantity: 1 }); // Adding an item to the cart
-
-//     // Update the cart count (you can update the count displayed in the UI)
-//     let cartCount = cart.length;
-
-//     // Display a message to the user (you can use an alert, console.log, or display a message in the UI)
-//     alert("Item added to cart"); // Display an alert message
-
-//     // You can also update the UI to reflect the updated cart count, for example:
-//     document.getElementById("cart-count").textContent = cartCount; // Update the cart count displayed in the UI
-// }
 
 
 
-fetch('./profile.json')
+fetch('https://raw.githubusercontent.com/KWSTEPHY/Creative-Canvas/main/profile.json')
     .then((response) => response.json())
     .then((json) => setArtist(json));
 
