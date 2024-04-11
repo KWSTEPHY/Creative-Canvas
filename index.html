@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Canvas</title>
     <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 </head>
 
 <body>
@@ -22,63 +26,94 @@
                 <li><a href="#store">Location</a></li>
                 <li><a href="#info">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li id="search-container">
+                <div class="search-container">
                     <input type="text" placeholder="Search...">
-                    <button type="submit">Search</button>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </div>
+                  
+                    <div id="cart-icon">
+                        <button id="cartBtn" class="cart-btn">
+                            <img src="https://img.icons8.com/ios/50/shopping-cart--v1.png" width="30" height="30"
+                                alt="shopping-cart">
+                            <span id="cart-badge" class="badge">0</span>
+                        </button>
+                    </div>
             </ul>
         </nav>
     </header>
     <main>
         <section id="profile">
             <h2>Artist Profile</h2>
-            
-           
+
+
         </section>
-        
 
 
+        <div class="gallery-box">
         <section id="artwork" class="wrapper-gallery">
-            <h2>Catalogue</h2>
+            <h2></h2>
             <!-- Images display-->
             <div class="gallery-img img1">
                 <div><a href="#">title</a></div>
                 <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+                
+                    <span id="like-count" class="likes">0 likes</span>
+                    <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                
             </div>
             <div class="gallery-img img2">
                 <div><a href="#">title</a></div>
                 <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+
+                <span id="like-count" class="likes">0 likes</span>
+                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
             </div>
             <div class="gallery-img img3">
                 <div><a href="#">title</a></div>
                 <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+
+                <span id="like-count" class="likes">0 likes</span>
+                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
             </div>
             <div class="gallery-img img4">
                 <div><a href="#">title</a></div>
                 <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+
+                <span id="like-count" class="likes">0 likes</span>
+                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
             </div>
             <div class="gallery-img img5">
                 <div><a href="#">title</a></div>
                 <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+
+                <span id="like-count" class="likes">0 likes</span>
+                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
             </div>
             <div class="gallery-img img6">
                 <div><a href="#">title</a></div>
                 <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+
+                <span id="like-count" class="likes">0 likes</span>
+                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
             </div>
             <div class="gallery-img img7">
                 <div><a href="#">title</a></div>
                 <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+
+                <span id="like-count" class="likes">0 likes</span>
+                <button id="like-button" class="like-button"><i class="fa fa-heart" aria-hidden="true"></i></button>
             </div>
         </section>
-
+</div>
         <section id="store">
             <h2>Location</h2>
             <p>Our art gallery is located at:</p>
             <p>Moi Avenue Street, Nairobi, 20100</p>
             <p><b>Directions:</b></p>
             <ol>
-                <li>From the main highway, take the first</li>
+                <li>From the main highway, take the first left</li>
                 <li>Turn left onto Moi Avenue.</li>
-                <li>Continue straight for 1 mile.</li>
+                <li>Continue straight for 100m.</li>
                 <li>The art gallery will be on your right.</li>
             </ol>
             <!-- Online store will be dynamically added here -->
