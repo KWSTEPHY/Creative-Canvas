@@ -21,7 +21,7 @@ This website has been developed using:
 
 ## Deployment
 
-To deploy this project run
+To deploy this project run [Creative Canvas](https://creative-canvas-lilac.vercel.app/)
 
 ```bash
   npm run deploy
