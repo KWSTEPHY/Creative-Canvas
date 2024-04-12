@@ -48,6 +48,11 @@ function setArtist(data) {
 
 }
 
+
+
+
+
+
 //Add to cart
 // Initialize cart badge count
 let cartBadgeCount = 0;

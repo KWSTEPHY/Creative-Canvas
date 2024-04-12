@@ -111,8 +111,13 @@
     margin-top: 70px;
 }
 #profile h2 {
-    margin-top: 200px; 
-}
+    
+        color: #333;
+        font-size: 24px;
+        margin-top: -50px;
+        margin-left: 40px;
+    }
+
     
     .artist {
         width: 200px; 
@@ -136,12 +141,15 @@
     /*Images Arrangement*/
 
     #artwork h2 {
-        margin-bottom: 1px;
-        margin-top: 50px;
-    }
+        
+            color: #333;
+            font-size: 24px;
+            margin-top: 80px;
+        }
+    
    
     #artwork{
-        margin-top: -90px;
+    margin-top: -90px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -379,11 +387,9 @@ position:relative;
     line-height: 1.5;
     margin-bottom: 10px;
 }
-
-
-
 .dark-mode {
     /* Dark mode styles */
     background-color: #222121;
     color: #f0f0f0;
 }
+
