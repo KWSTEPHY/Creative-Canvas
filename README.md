@@ -16,19 +16,19 @@ Stephy Kamau
 
 This website has been developed using:
 
--Clone the repository
--Open the project folder
--Run on index.html
+- Clone the repository
+- Open the project folder
+- Run on index.html
 
 ## Deployment
 
 To deploy this project run [Creative Canvas](https://creative-canvas-lilac.vercel.app/)
 
 ## Technology Used
-*HTML
-*CSS
-*JAVASCRIPT
-*VERCEL
+* HTML
+* CSS
+* JAVASCRIPT
+* VERCEL
 
 ## Key features
 Its a single page application that has features like: 
