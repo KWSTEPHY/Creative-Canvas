@@ -19,7 +19,6 @@ function handleLikeButtonClick() {
 handleLikeButtonClick();
 
 
-//Add to cart
 // Initialize cart badge count
 let cartBadgeCount = 0;
 
@@ -29,6 +28,9 @@ function addToCart() {
     cartBadgeCount++;
     // Update the cart badge
     updateCartBadge();
+    
+    // Alert message for adding to cart
+    alert("Item added to cart!");
 }
 
 // Function to update the cart badge
