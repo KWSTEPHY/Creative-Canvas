@@ -67,37 +67,37 @@
     }
 
     h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-        }
+     font-size: 24px;
+     margin-bottom: 10px;
+     }
 
         
         /* Search*/
 
         .search-container {
-            position: absolute; 
-            top: 30px; 
-            right: 30px; 
-          }
+     position: absolute; 
+    top: 30px; 
+    right: 30px; 
+      }
           
-          .search-container input[type="text"] {
-            padding: 6px;
-            font-size: 17px;
-            border: none;
-            border-radius: 20px; 
-          }
+    .search-container input[type="text"] {
+    padding: 6px;
+    font-size: 17px;
+     border: none;
+    border-radius: 20px; 
+    }
           
-          .search-container button[type="submit"] {
-            padding: 6px 10px;
-            background-color: #ddd;
-            font-size: 17px;
-            border: none;
-            border-radius: 20px; 
-            cursor: pointer;
-            margin-right: 150px;
-          }
+    .search-container button[type="submit"] {
+     padding: 6px 10px;
+     background-color: #ddd;
+     font-size: 17px;
+     border: none;
+     border-radius: 20px; 
+     cursor: pointer;
+     margin-right: 150px;
+    }
           
-    
+
         
     /*artist profile*/
     #profile {
@@ -127,8 +127,7 @@
         background-color:#ccc ;
         border-radius: 20px;
         
-        
-       
+
     }
 
     .artist img {

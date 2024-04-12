@@ -19,40 +19,6 @@ function handleLikeButtonClick() {
 handleLikeButtonClick();
 
 
-//Fetch profile data from api
-
-fetch('https://raw.githubusercontent.com/KWSTEPHY/Creative-Canvas/main/profile.json')
-    .then((response) => response.json())
-    .then((json) => setArtist(json));
-
-
-function setArtist(data) {
-
-    let profile = document.getElementById("profile");
-
-
-
-
-
-//loop through each data
-    for (let i = 0; i < data.length; i++) {
-
-        profile.innerHTML += `<div class="artist" id="artist1">
-        <img src="${data[i]?.image}" alt="Artist 1">
-        <!-- Content for artist 1 -->
-        <h3> ${data[i]?.name}</h3>
-        <p>${data[i]?.description}</p>
-    </div>`;
-    }
-
-
-}
-
-
-
-
-
-
 //Add to cart
 // Initialize cart badge count
 let cartBadgeCount = 0;
@@ -74,7 +40,6 @@ function updateCartBadge() {
 }
 
 
-
 // Function to toggle dark mode
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
@@ -92,6 +57,32 @@ document.getElementById('default-mode').addEventListener('click', setDefaultMode
 
 
 
+
+//Fetch profile data from api
+
+fetch('https://raw.githubusercontent.com/KWSTEPHY/Creative-Canvas/main/profile.json')
+    .then((response) => response.json())
+    .then((json) => setArtist(json));
+
+
+function setArtist(data) {
+
+    let profile = document.getElementById("profile");
+
+
+//loop through each data
+    for (let i = 0; i < data.length; i++) {
+
+        profile.innerHTML += `<div class="artist" id="artist1">
+        <img src="${data[i]?.image}" alt="Artist 1">
+        <!-- Content for artist 1 -->
+        <h3> ${data[i]?.name}</h3>
+        <p>${data[i]?.description}</p>
+    </div>`;
+    }
+
+
+}
 
 
 
