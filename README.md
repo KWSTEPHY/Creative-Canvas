@@ -31,7 +31,10 @@ JAVASCRIPT
 VERCEL
 
 ## Key features
-Its a single page application that has features like artist profile and catalogue and location
+Its a single page application that has features like: 
+-Artist profile
+-Catalogue
+-Location
 
 ## Requirements Needed
 * Basic programming knowledge of html, css and javaScript
