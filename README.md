@@ -24,10 +24,6 @@ This website has been developed using:
 
 To deploy this project run [Creative Canvas](https://creative-canvas-lilac.vercel.app/)
 
-```bash
-  npm run deploy
-```
-
 ## Technology Used
 HTML
 CSS
