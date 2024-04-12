@@ -16,9 +16,9 @@ Stephy Kamau
 
 This website has been developed using:
 
-Clone the repository
-Open the project folder
-Run on index.html
+-Clone the repository
+-Open the project folder
+-Run on index.html
 
 ## Deployment
 
@@ -43,10 +43,10 @@ Its a single page application that has features like artist profile and catalogu
 
   ## Objectives
 
-    • Serve as a digital storefront, allowing the gallery to reach a global audience of art enthusiasts, collectors and potential buyers who may not be able to visit the physical gallery in person.
-    • Showcase artists artwork
-    • Provide insight to the gallery’s curatorial process and highlight trends in the art world.
-    • Provide a seamless shopping experience .
+    - Serve as a digital storefront, allowing the gallery to reach a global audience of art enthusiasts, collectors and potential buyers who may not be able to visit the physical gallery in person.
+    - Showcase artists artwork
+    - Provide insight to the gallery’s curatorial process and highlight trends in the art world.
+    - Provide a seamless shopping experience .
   
 ## Collaborate
 Email me at: [Stephy Wanjiru Kamau](stephshiro35@gmail.com)
