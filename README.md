@@ -32,9 +32,9 @@ To deploy this project run [Creative Canvas](https://creative-canvas-lilac.verce
 
 ## Key features
 Its a single page application that has features like: 
--Artist profile
--Catalogue
--Location
+- Artist profile
+- Catalogue
+- Location
 
 ## Requirements Needed
 * Basic programming knowledge of html, css and javaScript
