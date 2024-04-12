@@ -25,10 +25,10 @@ This website has been developed using:
 To deploy this project run [Creative Canvas](https://creative-canvas-lilac.vercel.app/)
 
 ## Technology Used
-HTML
-CSS
-JAVASCRIPT
-VERCEL
+*HTML
+*CSS
+*JAVASCRIPT
+*VERCEL
 
 ## Key features
 Its a single page application that has features like: 
