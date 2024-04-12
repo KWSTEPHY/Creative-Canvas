@@ -26,11 +26,7 @@ fetch('https://raw.githubusercontent.com/KWSTEPHY/Creative-Canvas/main/profile.j
     .then((json) => setArtist(json));
 
 
-
-
 function setArtist(data) {
-
-
 
     let profile = document.getElementById("profile");
 
