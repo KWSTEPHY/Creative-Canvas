@@ -16,26 +16,25 @@ Stephy Kamau
 
 This website has been developed using:
 
--Clone the repository
--Open the project folder
--Run on index.html
+- Clone the repository
+- Open the project folder
+- Run on index.html
 
 ## Deployment
 
 To deploy this project run [Creative Canvas](https://creative-canvas-lilac.vercel.app/)
 
-```bash
-  npm run deploy
-```
-
 ## Technology Used
-HTML
-CSS
-JAVASCRIPT
-VERCEL
+* HTML
+* CSS
+* JAVASCRIPT
+* VERCEL
 
 ## Key features
-Its a single page application that has features like artist profile and catalogue and location
+Its a single page application that has features like: 
+- Artist profile
+- Catalogue
+- Location
 
 ## Requirements Needed
 * Basic programming knowledge of html, css and javaScript
